@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Kart öznitelikleri -->
+    <declare-styleable name="TaskCard">
+        <attr name="taskCardBackground" format="color|reference" />
+        <attr name="taskCardElevation" format="dimension" />
+        <attr name="taskCardCornerRadius" format="dimension" />
+    </declare-styleable>
+</resources> 

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Navigation grafi tanımı -->
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_graph"
+    app:startDestination="@id/taskListFragment">
+
+    <!-- Görev listesi fragment'ı -->
+    <fragment
+        android:id="@+id/taskListFragment"
+        android:name="com.burakhancidem.dotoday.ui.TaskListFragment"
+        android:label="Daily List"
+        tools:layout="@layout/fragment_task_list">
+        <!-- Görev ekleme ekranına gitme aksiyonu -->
+        <action
+            android:id="@+id/action_taskListFragment_to_addTaskFragment"
+            app:destination="@id/addTaskFragment" />
+        <action
+            android:id="@+id/action_taskListFragment_to_weeklyOverviewFragment"
+            app:destination="@id/weeklyOverviewFragment" />
+    </fragment>
+
+    <!-- Görev ekleme fragment'ı -->
+    <fragment
+        android:id="@+id/addTaskFragment"
+        android:name="com.burakhancidem.dotoday.ui.AddTaskFragment"
+        android:label="Do Today"
+        tools:layout="@layout/fragment_add_task">
+
+        <argument
+            android:name="taskId"
+            app:argType="integer"
+            android:defaultValue="-1" />
+
+        <!-- Görev listesi ekranına dönme aksiyonu -->
+        <action
+            android:id="@+id/action_addTaskFragment_to_taskListFragment"
+            app:destination="@id/taskListFragment"
+            app:popUpTo="@id/taskListFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+
+    <!-- Haftalık özet fragment'ı -->
+    <fragment
+        android:id="@+id/weeklyOverviewFragment"
+        android:name="com.burakhancidem.dotoday.ui.WeeklyOverviewFragment"
+        android:label="Weekly Overview"
+        tools:layout="@layout/fragment_weekly_overview" />
+</navigation>

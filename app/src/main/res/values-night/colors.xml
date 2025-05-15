@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Ana Renkler -->
+    <color name="primary">#d3806c</color>
+    <color name="primary_dark">#FF5722</color>
+    <color name="secondary">#FF03DAC6</color>
+    <color name="secondary_dark">#FF018786</color>
+
+    <!-- Metin Renkleri -->
+    <color name="text_primary">#DEFFFFFF</color>
+    <color name="text_secondary">#99FFFFFF</color>
+
+    <!-- Arka Plan Renkleri -->
+    <color name="background">#FF121212</color>
+    <color name="surface">#FF1E1E1E</color>
+
+    <!-- Temel Renkler -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Durum Renkleri -->
+    <color name="error">#FFCF6679</color>
+</resources> 

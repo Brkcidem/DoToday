@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Ana Renkler -->
+    <color name="primary">#d3806c</color>
+    <color name="primary_dark">#FF5722</color>
+    <color name="secondary">#FF03DAC5</color>
+    <color name="secondary_dark">#FF018786</color>
+
+    <!-- Metin Renkleri -->
+    <color name="text_primary">#DE000000</color>
+    <color name="text_secondary">#99000000</color>
+
+    <!-- Arka Plan Renkleri -->
+    <color name="background">#FFFFFFFF</color>
+    <color name="surface">#FFFFFFFF</color>
+
+    <!-- Temel Renkler -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Durum Renkleri -->
+    <color name="error">#FFB00020</color>
+
+    <!-- Material 3 ile çakışmasın diye ekliyoruz -->
+    <color name="colorPrimaryContainer">#D2E3F8</color>
+    <color name="colorOnPrimaryContainer">#d3806c</color>
+
+    <!-- Aksan Renk -->
+    <color name="colorAccent">#FFC107</color>
+
+    <!-- Yeni eklenen renk -->
+    <color name="colorTextSecondary">#757575</color>
+    <color name="colorPrimary">#d3806c</color>
+    <color name="colorPrimaryVariant">#e1e1e1</color>
+    <color name="colorOnPrimary">#080808</color>
+    <color name="colorBackground">#e1e1e1</color>
+    <color name="colorSurface">#e1e1e1</color>
+    <color name="colorOnBackground">#080808</color>
+    <color name="colorOnSurface">#080808</color>
+    <color name="colorSecondary">#90908f</color>
+    <color name="colorSecondaryVariant">#747474</color>
+    <color name="colorOnSecondary">#e1e1e1</color>
+    <color name="grey_light">#90908f</color>
+    <color name="grey_dark">#747474</color>
+    <color name="accent">#d3806c</color>
+</resources>

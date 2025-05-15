@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+        <!-- Uygulamanın Ana Teması -->
+    <style name="Theme.DoToday" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryVariant">@color/primary</item>
+        <item name="colorOnPrimary">@color/white</item>
+        
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/secondary</item>
+        <item name="colorSecondaryVariant">@color/secondary_dark</item>
+        <item name="colorOnSecondary">@color/black</item>
+        
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">@color/primary</item>
+        
+        <!-- Text colors -->
+        <item name="android:textColorPrimary">@color/text_primary</item>
+        <item name="android:textColorSecondary">@color/text_secondary</item>
+        
+        <!-- Background colors -->
+        <item name="android:colorBackground">@color/background</item>
+        <item name="colorSurface">@color/surface</item>
+        <item name="colorOnSurface">@color/text_primary</item>
+        
+        <!-- Error colors -->
+        <item name="colorError">@color/error</item>
+        <item name="colorOnError">@color/white</item>
+        
+        <!-- Custom attributes -->
+        <item name="taskCardBackground">@color/surface</item>
+        <item name="taskCardElevation">4dp</item>
+        <item name="taskCardCornerRadius">8dp</item>
+
+        <!-- Varsayılan Bileşen Stilleri -->
+        <item name="textInputStyle">@style/Widget.DoToday.TextInputLayout</item>
+        <item name="buttonStyle">@style/Widget.DoToday.Button</item>
+        <item name="editTextStyle">@style/Widget.DoToday.EditText</item>
+        <item name="floatingActionButtonStyle">@style/Widget.DoToday.FloatingActionButton</item>
+        <item name="checkboxStyle">@style/Widget.DoToday.Checkbox</item>
+
+        <!-- Material Design Özellikleri -->
+        <item name="materialButtonStyle">@style/Widget.DoToday.Button</item>
+    </style>
+
+</resources>

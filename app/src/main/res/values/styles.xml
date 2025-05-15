@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Button Styles -->
+    <style name="Widget.DoToday.Button" parent="Widget.MaterialComponents.Button">
+        <item name="android:textColor">?attr/colorOnPrimary</item>
+        <item name="backgroundTint">?attr/colorPrimary</item>
+        <item name="cornerRadius">8dp</item>
+        <item name="android:paddingStart">16dp</item>
+        <item name="android:paddingEnd">16dp</item>
+        <item name="android:paddingTop">12dp</item>
+        <item name="android:paddingBottom">12dp</item>
+    </style>
+
+    <style name="Widget.DoToday.Button.TextButton" parent="Widget.MaterialComponents.Button.TextButton">
+        <item name="android:textColor">?attr/colorPrimary</item>
+        <item name="rippleColor">?attr/colorPrimaryVariant</item>
+    </style>
+
+    <!-- Text Input Styles -->
+    <style name="Widget.DoToday.TextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxStrokeColor">?attr/colorPrimary</item>
+        <item name="hintTextColor">?attr/colorPrimary</item>
+        <item name="boxCornerRadiusTopStart">8dp</item>
+        <item name="boxCornerRadiusTopEnd">8dp</item>
+        <item name="boxCornerRadiusBottomStart">8dp</item>
+        <item name="boxCornerRadiusBottomEnd">8dp</item>
+    </style>
+
+    <!-- EditText Style -->
+    <style name="Widget.DoToday.EditText" parent="Widget.MaterialComponents.TextInputEditText.OutlinedBox">
+        <item name="android:textColor">?attr/colorOnSurface</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <!-- FAB Style -->
+    <style name="Widget.DoToday.FloatingActionButton" parent="Widget.MaterialComponents.FloatingActionButton">
+        <item name="backgroundTint">?attr/colorPrimary</item>
+        <item name="tint">?attr/colorOnPrimary</item>
+        <item name="elevation">6dp</item>
+    </style>
+
+    <!-- Checkbox Style -->
+    <style name="Widget.DoToday.Checkbox" parent="Widget.MaterialComponents.CompoundButton.CheckBox">
+        <item name="buttonTint">?attr/colorPrimary</item>
+        <item name="android:textColor">?attr/colorOnSurface</item>
+    </style>
+
+    <!-- Card Style -->
+    <style name="Widget.DoToday.CardView" parent="Widget.MaterialComponents.CardView">
+        <item name="cardBackgroundColor">?attr/taskCardBackground</item>
+        <item name="cardElevation">?attr/taskCardElevation</item>
+        <item name="cardCornerRadius">?attr/taskCardCornerRadius</item>
+    </style>
+
+    <!-- Şekil Görünümü -->
+    <style name="ShapeAppearance.DoToday.SmallComponent" parent="ShapeAppearance.MaterialComponents.SmallComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">16dp</item>
+    </style>
+
+    <!-- Haftalık Görev Görünümü -->
+    <style name="WeeklyTaskDayIcon">
+        <!-- Görsel kutu boyutu -->
+        <item name="android:layout_width">36dp</item>
+        <item name="android:layout_height">36dp</item>
+
+        <!-- Görsel içerik çerçeveye sığsın ama ortalansın -->
+        <item name="android:scaleType">fitCenter</item>
+
+        <!-- Tema uyumlu renk (isteğe bağlı) -->
+        <item name="android:tint">?attr/colorOnSurface</item>
+
+        <!-- Ortalamayı garanti altına al -->
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    <!-- Base application theme. -->
+    <style name="Theme.YourAppName" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryVariant">@color/colorPrimaryVariant</item>
+        <item name="colorOnPrimary">@color/colorOnPrimary</item>
+        <item name="android:colorBackground">@color/colorBackground</item>
+        <item name="colorSurface">@color/colorSurface</item>
+        <item name="colorOnBackground">@color/colorOnBackground</item>
+        <item name="colorOnSurface">@color/colorOnSurface</item>
+        <item name="colorSecondary">@color/colorSecondary</item>
+        <item name="colorSecondaryVariant">@color/colorSecondaryVariant</item>
+    </style>
+
+
+</resources>
