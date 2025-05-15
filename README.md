@@ -1,6 +1,6 @@
-# 📋 DoToday - To-Do List & Weekly Goals Tracker
+# 📋 Do Today - To-Do List & Weekly Goals Tracker
 
-DoToday is an Android application that helps users create to-do lists and track their goals by marking tasks as completed. It also features a weekly view to easily monitor how many goals have been achieved during the week. The app is built following the MVVM architecture, utilizing Room components such as DAO, Entity, and Database.
+Do Today is an Android application that helps users create to-do lists and track their goals by marking tasks as completed. It also features a weekly view to easily monitor how many goals have been achieved during the week. The app is built following the MVVM architecture, utilizing Room components such as DAO, Entity, and Database.
 
 ### ✨ Features
 
