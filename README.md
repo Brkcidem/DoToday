@@ -31,6 +31,10 @@ git clone https://github.com/Brkcidem/DoToday.git
 
 ## 📱 Screenshots
 
+![Daily List](screenshots/DailyList.png)
+![Weekly Overview](screenshots/WeeklyOverview.png)
+![Save Task](screenshots/SaveTask.png)
+
 ## 🔧 Development
 
 To contribute to the project:
@@ -49,6 +53,5 @@ Burakhan Çidem - [GitHub](https://github.com/Brkcidem)
 
 ## 🙏 Acknowledgments
 
-- Firebase team
 - Android developer community
 - All contributors
