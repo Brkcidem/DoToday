@@ -31,8 +31,13 @@ git clone https://github.com/Brkcidem/DoToday.git
 
 ## 📱 Screenshots
 
+### Daily List
 ![Daily List](screenshots/DailyList.png)
+
+### Weekly Overview
 ![Weekly Overview](screenshots/WeeklyOverview.png)
+
+### Save Task
 ![Save Task](screenshots/SaveTask.png)
 
 ## 🔧 Development
